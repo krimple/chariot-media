@@ -1,0 +1,12 @@
+{
+    "version": "0.1.0",
+    "name": "org.apache.cordova.core.network-information",
+    "cordova_name": "Network Information",
+    "description": "Cordova Network Information Plugin",
+    "license": "Apache",
+    "keywords": [
+        "cordova",
+        "network",
+        "information"
+    ]
+}
