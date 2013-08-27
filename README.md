@@ -16,6 +16,7 @@ Requirements
 ------------
 
     npm install -g ios-emu cordova phonegap karma yeoman bower grunt-cli
-    brew install ios-emu
+    brew install ios-sim
+
 
  
