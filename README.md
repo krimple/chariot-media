@@ -15,7 +15,26 @@ To build
 Requirements
 ------------
 
-    npm install -g ios-emu cordova phonegap karma yeoman bower grunt-cli
-    brew install ios-emu
+    npm install -g ios-sim cordova phonegap
+    
+    # for testing support via karma:
+    npm install -g karma yeoman bower grunt-cli grunt-karma karma-ng-scenario
+    
+    # for launching apps with cordova emulate:
+    brew install ios-sim
+    
+
+To run the tests
+-----------------
+
+End-to-End tests are run with:
+
+    grunt server &
+    grunt karma:e2e
+    
+Unit tests are run with (still no tests yet on this):
+
+    grunt karma:unit
+
 
  
