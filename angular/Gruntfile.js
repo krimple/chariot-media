@@ -15,6 +15,7 @@ var mountFolder = function (connect, dir) {
 module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   require('time-grunt')(grunt);
+  grunt.loadNpmTasks('grunt-karma');
 
   // configurable paths
   var yeomanConfig = {
@@ -337,12 +338,24 @@ module.exports = function (grunt) {
         'htmlmin'
       ]
     },
+    
     karma: {
+      options: {
+        background: false,
+        reporters: 'progress,dots',
+        hostname: '127.0.0.1',
+        browsers: ['PhantomJS']
+      },
+      e2e: {
+        configFile: 'karma-e2e.conf.js',
+        port: 9876
+      },
       unit: {
         configFile: 'karma.conf.js',
-        singleRun: true
+        port: 9877
       }
     },
+    
     cdnify: {
       dist: {
         html: ['<%= yeoman.dist %>/*.html']
