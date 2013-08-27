@@ -29,6 +29,7 @@ To run the tests
 
 End-to-End tests are run with:
 
+    grunt server &
     grunt karma:e2e
     
 Unit tests are run with (still no tests yet on this):
