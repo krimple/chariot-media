@@ -7,6 +7,7 @@ module.exports = function(config) {
     frameworks : ['ng-scenario'],
     files : [
       'app/bower_components/angular/angular.js',
+      'app/bower_components/underscore/underscore.js',
       'app/scripts/*.js',
       'app/scripts/**/*.js',
       'test/e2e/**/*.js'

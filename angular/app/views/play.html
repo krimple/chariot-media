@@ -2,3 +2,15 @@
 
 <button id="play_button" ng-click="console.log('clicked')">Click me!</button>
 
+<h3>Episodes</h3>
+<ul>
+
+    <li ng-repeat="episode in episodes">
+        Title: {{ episode.title }}<br/>
+        Description: {{ episode.description }}<br/>
+        <audio controls>
+            <source src='{{ episode.enclosure }}'> type="audio/mpeg">
+        </audio>
+    </li>
+
+</ul>
