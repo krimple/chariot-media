@@ -297,8 +297,9 @@ module.exports = function (grunt) {
               '.htaccess',
               'bower_components/**/*',
               'non-bower_components/**/*',
-              'images/{,*/}*.{gif,webp}',
+              'images/{,*/}*.{gif,png,webp}',
               'styles/fonts/*',
+              'audiojs/audiojs/*',
               'config.xml'
             ]
           },
@@ -338,7 +339,7 @@ module.exports = function (grunt) {
         'htmlmin'
       ]
     },
-    
+
     karma: {
       options: {
         background: false,
@@ -355,7 +356,7 @@ module.exports = function (grunt) {
         port: 9877
       }
     },
-    
+
     cdnify: {
       dist: {
         html: ['<%= yeoman.dist %>/*.html']
@@ -389,10 +390,10 @@ module.exports = function (grunt) {
       return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
     }
 
+    // did include 'autoprefixer',
     grunt.task.run([
       'clean:server',
       'concurrent:server',
-      'autoprefixer',
       'connect:livereload',
       'open',
       'watch'

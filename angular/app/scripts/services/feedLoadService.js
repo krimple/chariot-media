@@ -50,9 +50,8 @@ angular.module('angularApp')
           $(data).find('item').each(function () {
             var el = $(this),
               title = el.find('title').text(),
-              description = el.find('description').html(),
+              description = el.find("content\\:encoded"),
               enclosure = el.find('enclosure').attr('url');
-            description = description.replace('<![CDATA[', '').replace(']]>', '');
 
             episodes.push({
               title: title,

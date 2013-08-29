@@ -2,24 +2,14 @@
 
 /*jslint browser: true, devel: true, unparam: true */
 
-angular.module('angularApp').controller('PlayCtrl', function ($scope, $http) {
-  $http.get('http://emergingtech.chariotsolutions.com/category/all-podcasts/techcast/feed/')
-    .success(function (data, status, headers, config) {
-      var episodes = [];
-      $(data).find('item').each(function () {
-        var el = $(this),
-          title = el.find('title').text(),
-          description = el.find('description').html(),
-          enclosure = el.find('enclosure').attr('url');
-        description = description.replace('<![CDATA[', '').replace(']]>', '');
+angular.module('angularApp').controller('PlayCtrl', function ($rootScope, $scope, feedLoadService) {
 
-        episodes.push({
-          title: title,
-          description: description,
-          enclosure: enclosure
-        });
-      });
+  $rootScope.$on("play-episode", function(event, episode) {
+    console.log("Showing episode");
+    console.log(episode);
+    $rootScope.episode = episode;
+    $rootScope.description = episode.description;
 
-      $scope.episodes = episodes;
-    });
+  });
+
 });
