@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7f71e3b-52f4-461f-9034-d32d901a95a8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/app/styles/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/scripts/868e83f9.scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/scripts/e6d7a04f.libraries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/528b0608.scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/76c21dca.plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/868e83f9.scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/d0075453.libraries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/d9b4e3b6.modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/styles/685fb075.main.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/ChariotMedia.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/ChariotMedia.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/ChariotMedia.xcodeproj/project.xcworkspace/xcuserdata/kenrimple.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/ChariotMedia.xcodeproj/project.xcworkspace/xcuserdata/kenrimple.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/Gruntfile.js" afterPath="$PROJECT_DIR$/angular/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/app/index.html" afterPath="$PROJECT_DIR$/angular/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/app/scripts/app.js" afterPath="$PROJECT_DIR$/angular/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/app/scripts/controllers/list.js" afterPath="$PROJECT_DIR$/angular/app/scripts/controllers/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/app/scripts/controllers/play.js" afterPath="$PROJECT_DIR$/angular/app/scripts/controllers/play.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/app/scripts/services/feedLoadService.js" afterPath="$PROJECT_DIR$/angular/app/scripts/services/feedLoadService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/app/views/list.html" afterPath="$PROJECT_DIR$/angular/app/views/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/app/views/play.html" afterPath="$PROJECT_DIR$/angular/app/views/play.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/bower.json" afterPath="$PROJECT_DIR$/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/karma.conf.js" afterPath="$PROJECT_DIR$/angular/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/cordova/console.log" afterPath="$PROJECT_DIR$/platforms/ios/cordova/console.log" />
-    </list>
+    <list default="true" id="a7f71e3b-52f4-461f-9034-d32d901a95a8" name="Default" comment="" />
     <ignored path="chariot-media.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />

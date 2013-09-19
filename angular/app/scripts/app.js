@@ -11,6 +11,10 @@ angular.module('angularApp', [ 'ui.bootstrap'])
         templateUrl: 'views/play.html',
         controller: 'PlayCtrl'
       })
+      .when('/play/{key}', {
+        templateUrl: 'views/play.html',
+        controller: 'PlayCtrl'
+      })
       .when('/list', {
         templateUrl: 'views/list.html',
         controller: 'ListCtrl'

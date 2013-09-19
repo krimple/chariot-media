@@ -1,10 +1,11 @@
-<div class="hero-unit" ng-show="loading">Loading Podcast...</div>
-<div ng-repeat="episode in episodes">
-    <div class="row-fluid">
-        <div class="span10">{{  episode.title }}</div>
-    </div>
-    <div class="row-fluid">
-        <div class="span2"><button class="btn btn-primary btn-small" ng-click="play(episode)">Play...</button></div>
+<div class="hero-unit" ng-show="loading">
+  Loading Podcast...
+</div>
+<div ng-click="play(episode)" class="list-group" ng-repeat="episode in episodes">
+        <h4>{{  episode.title }}</h4>
+        <p>
+          <button class="btn btn-primary btn-small"
+               ng-click="play(episode)">Play...</button>
+        </p>
     </div>
 </div>
-
